@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep only raw data, not processed)
+data/processed/
+!data/raw/
+
+# Logs
+*.log
+
+# Notebook outputs (keep notebooks but not their outputs)
+notebooks/.ipynb_checkpoints/
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+
+# Secret
+*.pem
+*.key
